@@ -9,7 +9,8 @@ from .models.entrega import (
 )
 from .models.pedido import (Pedido, FormaPagamento, TipoStatusPedido)
 
-
+from .models.items import Item, TipoItem
+from .models.item_pedido import ItemPedido
 
 admin.site.register(Cliente)
 
@@ -23,4 +24,6 @@ admin.site.register(Pedido)
 admin.site.register(TipoStatusPedido)
 admin.site.register(FormaPagamento)
 
-
+admin.site.register(Item)
+admin.site.register(TipoItem)
+admin.site.register(ItemPedido)
