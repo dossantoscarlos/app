@@ -1,1 +1,1 @@
-# App de controlle de venda e cliente
+# App de controler de venda e cliente
